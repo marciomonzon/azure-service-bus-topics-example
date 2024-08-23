@@ -2,11 +2,10 @@
 
 const string azureServiceBusConnString = "your_azure_service_bus_conn_string";
 const string topicName = "my-topic";
-const string subscriptionName = "subscription1";
+const string subscriptionName = "subscription2";
 
 ServiceBusClient client;
 ServiceBusProcessor processor;
-
 
 async Task MessageHandler(ProcessMessageEventArgs args)
 {

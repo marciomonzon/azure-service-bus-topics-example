@@ -3,8 +3,8 @@
 ServiceBusClient client;
 ServiceBusSender sender;
 
-const string azureServiceBusConnString = "your_azure_service_bus_conn_string";
-const string topicName = "yor_topic_name";
+const string azureServiceBusConnString = "Endpoint=sb://az-bus-topics.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=TAAENHmvdgJKpO3QQwNLfluuHGnlEqiLj+ASbB76qcM=";
+const string topicName = "my-topic";
 const int numOfMessages = 3;
 
 client = new ServiceBusClient(azureServiceBusConnString);
