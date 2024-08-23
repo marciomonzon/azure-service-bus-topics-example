@@ -33,7 +33,7 @@
 </p>
 <ul>
   <li>The Sender will send Msg A and B to the Topic and store them into the subscriptons created;</li>
-<li></li>The Receivers (each one is subscribed to a specific subscription) will get the same messaged from the subscriptions.</li>
+  <li>The Receivers (each one is subscribed to a specific subscription) will get the same messaged from the subscriptions.</li>
 </ul>
 
 
