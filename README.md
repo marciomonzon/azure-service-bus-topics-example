@@ -31,8 +31,11 @@
 <p>
   In summary, based on the diagram: 
 </p>
-- The Sender will send Msg A and B to the Topic and store them into the subscriptons created;
-- The Receivers (each one is subscribed to a specific subscription) will get the same messaged from the subscriptions.
+<ul>
+  <li>The Sender will send Msg A and B to the Topic and store them into the subscriptons created;</li>
+<li></li>The Receivers (each one is subscribed to a specific subscription) will get the same messaged from the subscriptions.</li>
+</ul>
+
 
 
 
