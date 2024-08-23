@@ -1,6 +1,6 @@
 ﻿using Azure.Messaging.ServiceBus;
 
-const string azureServiceBusConnString = "your_azure_service_bus_conn_string";
+const string azureServiceBusConnString = "your_conn_string";
 const string topicName = "my-topic";
 const string subscriptionName = "subscription1";
 
