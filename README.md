@@ -13,8 +13,15 @@
 - .NET Console Application (Sender and Receiver).
 
 ## Technical info
-- Three Console Applications;
+- Three Console Applications:
   - Sender: AzureServiceBusTopic.Sender
+  - Receiver for a specific subscription: AzureServiceBusTopic.Receiver;
+  - ReceiverB for a specific subscription: AzureServiceBusTopic.ReceiverB.
+- In the AzureServiceBusTopic.Sender you must set:
+  - The topic name and Azure Service Bus conn string;
+- In the AzureServiceBusTopic.Receiver and AzureServiceBusTopic.ReceiverB you must set:
+  -  the topic name and which subscription correspond;
+
 
 ## How it Works?
 <p>
