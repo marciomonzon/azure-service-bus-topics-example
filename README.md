@@ -14,16 +14,26 @@
 
 ## How it Works?
 <p>
-  The Sender (AzureServiceBusTopic.Sender) sends some messages to a specific Azure Service Bus Topic/Subscription in Azure Cloud. Once the message get the Queue in the Broker, 
-  The Receiver (AzureServiceBusTopic.Receiver) will consume these messages from the Subscription and display them to the user.
+  The Sender (AzureServiceBusTopic.Sender) sends some messages to a specific Azure Service Bus Topic in Azure Cloud which these messages will be stored in the subscriptions created inside it. Once the messages get the Topic/Subscriptions in the Broker, the Receivers will get these messages from the Subscriptions that they are subscribed and display them to the user.
 </p>
 
 <p>
-  The Sender and Receiver must have the same Service Bus Connection String set in the code. Check the diagram below for a better understanding.
-  In a production environment, the connection string should no be hardcoded in the code.
+  The Sender and Receivers must have the same Service Bus Connection String set in the code and each receiver must knows which subscription is subscribed. Check the diagram below for a better understanding.
+  In a production environment, the connection string and other secrets should no be hardcoded in the code.
 </p>
 
 <br>
 
-WIP...
+![AzureServiceBusTopicsSubscription drawio](https://github.com/user-attachments/assets/4c1311d7-fc8b-4b70-86ce-09b27bdb8a4d)
+
+<br>
+
+<p>
+  In summary, based on the diagram: 
+</p>
+- The Sender will send Msg A and B to the Topic and store them into the subscriptons created;
+- The Receivers (each one is subscribed to a specific subscription) will get the same messaged from the subscriptions.
+
+
+
 
