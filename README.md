@@ -14,7 +14,7 @@
 
 ## Technical info
 - Three Console Applications;
--- Sender: AzureServiceBusTopic.Sender
+  - Sender: AzureServiceBusTopic.Sender
 
 ## How it Works?
 <p>
