@@ -9,8 +9,12 @@
 
 ## Stack
 - .NET 8;
-- Azure.Messaging.ServiceBus;
+-  Azure.Messaging.ServiceBus;
 - .NET Console Application (Sender and Receiver).
+
+## Technical info
+- Three Console Applications;
+-- Sender: AzureServiceBusTopic.Sender
 
 ## How it Works?
 <p>
@@ -32,9 +36,15 @@
   In summary, based on the diagram: 
 </p>
 <ul>
-  <li>The Sender will send Msg A and B to the Topic and store them into the subscriptons created;</li>
+  <li>The Sender will send Msg A and B to the Topic and them will be stored into the subscriptons created;</li>
   <li>The Receivers (each one is subscribed to a specific subscription) will get the same messaged from the subscriptions.</li>
 </ul>
+
+<br>
+
+## References
+- https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions
+- https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions?tabs=passwordless
 
 
 
